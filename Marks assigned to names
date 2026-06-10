@@ -1,8 +1,6 @@
-name=["ron","jameel","kratos","lacy","silky"]
-mark=[67,70,90,30,82]
-pos=0
+names=["ron","jameel","kratos","lacy","silky"]
+age=[47,20,23,30,34]
+res=list(zip(age,names))
+res1=sorted(res,reverse=True)
 for i in range(5):
-    if mark[i]>40:
-        pos=pos+1
-        print("{}.{} has scored {} marks".format((pos),name[i],mark[i]))
-print()
+    print("{}.{}---{}year old".format(i+1,res1[i][1],res1[i][0]))
