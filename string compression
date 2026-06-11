@@ -1,0 +1,11 @@
+x=input("Enter the Characters:")
+c=1
+d=""
+for i in range(len(x)):
+    if len(x)>i+1 and x[i]==x[i+1]:
+        c=c+1
+    else:
+        d=d+x[i]
+        d=d+str(c)
+        c=1
+print(d)
