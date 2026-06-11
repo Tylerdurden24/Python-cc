@@ -1,0 +1,15 @@
+a=100
+s=0
+c=0
+d=0
+while(a!=0):
+    a=int(input("Enter the num: "))
+    if(a>=40):
+        s=s+a
+        c=c+1
+    else:
+        d=d+1 
+print(s)
+print(c)
+print(d-1)
+    
