@@ -1,0 +1,13 @@
+x=int(input("enter the number:"))
+y=int(input("enter the number:"))
+
+b=max([x,y])
+s=b 
+while(True):
+
+    if b%x==0 and b%y==0:
+        break
+
+    else:
+       b=b+s
+print("lcm of two numbers is:",b)
